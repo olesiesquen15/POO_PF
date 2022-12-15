@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pe.edu.utp.ProyectoFinal.InterfacesGraficas.InterfazConfiguracion.InterfazConfiguracion">
+  <grid id="27dc6" binding="jpConfiguracion" layout-manager="GridLayoutManager" row-count="15" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="848" height="474"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="bd8e1" class="javax.swing.JLabel" binding="nEmpresa">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nombre de la empresa"/>
+        </properties>
+      </component>
+      <component id="d1ab2" class="javax.swing.JTextField" binding="tfSucursal">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1650c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sucursal"/>
+        </properties>
+      </component>
+      <component id="11eb6" class="javax.swing.JLabel" binding="nSitioWeb">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dirección Web"/>
+        </properties>
+      </component>
+      <component id="355bc" class="javax.swing.JTextField" binding="tfSitioWeb">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a0e81" class="javax.swing.JLabel" binding="nRUC">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="RUC"/>
+        </properties>
+      </component>
+      <component id="f4c87" class="javax.swing.JTextField" binding="tfRUC">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="484ae" class="javax.swing.JTextField" binding="tfNombreEmpresa">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="db7f3" class="javax.swing.JButton" binding="btnRestaurarCopia">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Restaurar Copia de Seguridad"/>
+        </properties>
+      </component>
+      <hspacer id="1e59b">
+        <constraints>
+          <grid row="1" column="0" row-span="14" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="35" height="35"/>
+            <preferred-size width="35" height="35"/>
+            <maximum-size width="35" height="35"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="bfb3">
+        <constraints>
+          <grid row="1" column="9" row-span="14" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="35" height="35"/>
+            <preferred-size width="35" height="35"/>
+            <maximum-size width="35" height="35"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="f7b0">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="35" height="35"/>
+            <preferred-size width="35" height="35"/>
+            <maximum-size width="35" height="35"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="e25ca">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="5" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="35" height="35"/>
+            <preferred-size width="35" height="35"/>
+            <maximum-size width="35" height="35"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="4ba6a">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="5" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="660ca">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="8" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="6539c">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="a6b44">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="35" height="35"/>
+            <preferred-size width="35" height="35"/>
+            <maximum-size width="35" height="35"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="bc863" class="javax.swing.JButton" binding="btnCopiaSeguridad">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Realizar Copia de Seguridad"/>
+        </properties>
+      </component>
+      <component id="bdb64" class="javax.swing.JButton" binding="btnAceptar">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="8" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Aceptar Cambios"/>
+        </properties>
+      </component>
+      <hspacer id="cf65b">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="35" height="35"/>
+            <preferred-size width="35" height="35"/>
+            <maximum-size width="35" height="35"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="cde4b">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="8" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="35" height="35"/>
+            <preferred-size width="35" height="35"/>
+            <maximum-size width="35" height="35"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="bda0c" class="javax.swing.JLabel" binding="lblTitulo">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="26" style="1"/>
+          <text value="Configuración"/>
+        </properties>
+      </component>
+      <vspacer id="9b3d9">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="10" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
